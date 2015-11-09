@@ -10,3 +10,6 @@ We came up with a few requirements that we need to have for the app.<br/>
 5. Reset Button for drawing<br/>
 6. Color Option button<br/>
 7. Answer Verification<br/>
+</br> </br>
+11/2/2015 Meeting:
+We updated our repos and figured out the screen flow of the whole app and drew the picture up. Here is the link to the drawing that we came up with and will try to emulate as best we can. </br> https://drive.google.com/file/d/0Bw1i-mAEdk77U0FDQ2hEd1gxNTQ/preview
