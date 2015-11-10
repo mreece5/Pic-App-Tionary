@@ -45,7 +45,7 @@ public class NumberOfPlayers extends AppCompatActivity {
         //change the screen to fit the number of names needed
         Spinner s = (Spinner)findViewById(R.id.spinner);
         Intent i = new Intent(this, NamesOfPlayers.class);
-        i.putExtra("numOfPlayers", s.getSelectedItemPosition());
+        i.putExtra("numOfPlayers", s.getSelectedItemPosition()+1);
         startActivity(i);
     }
 }

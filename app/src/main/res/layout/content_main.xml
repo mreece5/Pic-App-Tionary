@@ -12,7 +12,8 @@
 
     <TextView android:text="@string/title" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:textSize="28dp" />
 
     <Button
         android:layout_width="wrap_content"
