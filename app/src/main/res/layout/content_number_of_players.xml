@@ -7,20 +7,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
-    android:background="#3ce06c">
+    tools:showIn="@layout/activity_number_of_players"
+    tools:context="com.example.appclub.pic_app_tionary.NumberOfPlayers">
 
-    <TextView android:text="@string/title" android:layout_width="wrap_content"
+    <Spinner
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:id="@+id/spinner"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:focusableInTouchMode="false" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/start"
-        android:id="@+id/button"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="39dp"
-        android:onClick="GoToNumberOfPlayers" />
+        android:text="Next"
+        android:id="@+id/numOfPlayersNextButton"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:onClick="GoToNamesOfPlayers" />
 </RelativeLayout>
